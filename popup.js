@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded",()=>{chrome.storage.local.get(["pro"],d=>{if(d.pro)document.getElementById("upgrade-btn").textContent="Pro \u2713";});});
+document.addEventListener("DOMContentLoaded",()=>{document.getElementById("upgrade-btn").textContent="Pro features coming soon";document.getElementById("upgrade-btn").disabled=false;});
